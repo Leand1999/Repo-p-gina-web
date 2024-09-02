@@ -1,0 +1,32 @@
+/*---------------------------------------------------------------------------------------------------------------------------------------------
+                                                             CONTENIDO
+---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.titulo{
+    padding:30px;
+    background-color: #ddac0d;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+.video{
+    justify-content: center;
+}
+.videoframe{ 
+border: 7px solid rgb(221, 172, 13);
+margin:10px;
+border-radius:10px;
+width:300px ;
+height:300px ;  
+
+justify-content: center;
+}
+@media(min-width:992px){
+    .videoframe{
+        width:600px ;
+        height:600px ;  
+
+    }
+}

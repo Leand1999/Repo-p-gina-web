@@ -6,15 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos Autodidactas</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
-  
+
+    
+    
 <body>
    <header >
-    <h1>Cursos en línea</h1>
+    
+
+    <article class="logo-mobile">
+        <img class="logo-mobile" src="./images/icons8-dev-50.png" alt="">       
+    </article>
+   
+<form class="selector" action="#" method="get">
+    <select class="boton-selector">
+        <option value="arg">Argentina</option>
+        <option value="fr">Francia</option>
+        <option value="br">Brasil</option>
+    </select>
+</form>
+    <h1 class="titulo-de-pagina">Cursos en línea</h1>
+  
     <div class="menu">
         <a href="./index.html">Inicio</a>
-        <a href="#">Introducción</a>
-        <a href="#">Registrarse</a>
+        <a href="./contenido.html">Contenido </a>
+        <a href="./registro.html">Registrarse</a>
     </div>
    </header>
 
@@ -29,15 +46,26 @@
   <li class="elem-6">Elemento hijo</li>
 </ul>-->
 </div>
-
+<main> 
+    
 <section class="carta-conten">
     <h2 class="titulo-conten">Guía para principiantes</h2>
+   
+    <article class="carta">
+        <img  src="./images/programar.jpg" class="imagen-carta" alt="">
+        <a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n" target="_blank" rel="noopener noreferrer"> 
+                
+            <h3  class="carta-titulo"> ¿Que es la programacion?</h3>
+       
+        <p class="carta-descripcion">La programación es el proceso de crear un conjunto de instrucciones que le dicen a una computadora como realizar algún tipo de tarea. </p>
+    </a>
+    </article>
 
 <article class="carta">
     <img  src="./images/lenguajesdev.png" class="imagen-carta" alt="">
-    <a href="lenguajes.html"  rel="noopener noreferrer" class="sin-subrayado">
+    <a href="lenguajes.html" rel="noopener noreferrer">
    
-        <h3  class="carta-titulo">Lenguajes mas usados</h3>
+        <h3  class="carta-titulo"> Lenguajes mas usados</h3>
    
     <p class="carta-descripcion">Existen muchos lenguajes en el mundo de la programación y estos son algunos</p>
 </a>
@@ -45,63 +73,51 @@
 
 <article class="carta">
         <img src="./images/programacion-2-e1551291144973.jpg" class="imagen-carta" alt="">
-        <h3 class="carta-titulo">Aprende los fundamentos</h3>
-        <p class="carta-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Est quos accusa…</p>
+        <a href="">
+        <h3 class="carta-titulo"> Aprende los fundamentos</h3>
+        <p class="carta-descripcion">Los fundamentos de la programación son esenciales para cualquier persona que quiera aprender a programar y abarcan varios conceptos y técnicas básicas.
+            </p>
+        </a>    
     </article>
     <article class="carta">
         <img src="./images/conoce-5-lenguajes-de-programacion-basicos.jpg" class="imagen-carta" alt="">
-
-        <h3 class="carta-titulo">¿Por dónde empezar?</h3>
-        <p class="carta-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Est quos accusa…</p>
+        <a href="">
+        <h3 class="carta-titulo"> ¿Por dónde empezar?</h3>
+        
+        <p class="carta-descripcion">Es importante en la programacion ir paso a paso desde 
+            lo mas basico hasta lo mas avanzado de manera que entendamos la logica y sus bases, en esta seccion se muestra toda la informacion necesaria
+        </p>
+        </a>
     </article>
 </section>
-
+  
 
 <section class="carta-conten">
+      
         <h2 class="titulo-conten">Estrategias y utilidades</h2>
-
+   
     <article class="carta">
+        
         <img src="./images/Diagramadeflujo.jpg" class="imagen-carta" alt="">
-    
+        <a href=""> 
         <h3 class="carta-titulo">Diagramas de flujo</h3>
         <p class="carta-descripcion">¿Que son y para que se utilizan?</p>
-        
+        </a>
     </article>
     <article class="carta">
-        <img src="./images/conoce-5-lenguajes-de-programacion-basicos.jpg" class="imagen-carta" alt="">
-
-        <h3 class="carta-titulo">¿Por dónde empezar?</h3>
-        <p class="carta-descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing
-            elit. Est quos accusa…</p>
+        <img src="./images/Patrones_de_diseno.jpg" class="imagen-carta" alt="">
+        <a href="">
+        <h3 class="carta-titulo">Patrones de diseño</h3>
+        <p class="carta-descripcion">Los patrones de diseño son unas técnicas para resolver problemas comunes en el desarrollo de software y otros ámbitos referentes al diseño de interacción o interfaces. Un patrón de diseño resulta ser una solución a un problema de diseño.
+            </p>
+        </a>
     </article>
 
 </section>
    
 
 
-  
-
-
-
-
-<p>
-    <a href="contacto.html"> Formulario</a>
-
-     
-</p >
-
-</h1>
-
- <p>
-    <a href="https://github.com/Leand1999/Repo" target="_blank">Mi Perfil en github</a>
- </p>       
-
-
-
-<main>
-    <aside>
+ <!--   <aside>
         <h3>Últimas noticias</h3>
         <ul>
             <li>Noticia 1</li>
@@ -113,14 +129,54 @@
     Contenido general de la pagina
  
 
-<!--comentario-->
+-->
 </main>
-<footer class="footer">
-   <h2 class="texto-primario">Terminos y condiciones </h2>
+<footer class="footer" >
+    <section class="footer-header">
+        <h1>Leandro Ortola</h1>
+        <p>Seguinos en las redes sociales</p>
+    </section>
+    <section class="footer-redes-grandes">
+        <article class="red-grande">
+            <a href="https://github.com/Leand1999" target="_blank">
+                <img src="./images/GitHub.png" alt="">
+                <p>GitHub</p>
+            </a>
+        </article>
+
+        <article class="red-grande">
+            <a href="#">
+                <img src="./images/mail.png" alt="">
+                <p>rtola@outlook.com</p>
+            </a>
+        </article>
+    </section>
+
+    <section class="footer-redes-chicas">
+        <article class="red-chica">
+            <a href="#">
+                <img src="./images/Instagram.png" alt="">
+              
+            </a>
+        </article>
+        <article class="red-chica">
+            <a href="#">
+                <img src="./images/ytlogo.png">
+                
+            </a>
+        </article>
+    </article>
+    <article class="red-chica">
+        <a href="#">
+            <img src="./images/x.png">
+            
+        </a>
+    </article>
+    </section>
 </footer>
 
 
-
+<script src="./javascript/javascript.js"></script>
 </body>
 
 
