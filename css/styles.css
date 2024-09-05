@@ -1,9 +1,13 @@
 /*---------------------------------------------------------------------------------------------------------------------------------------------
                                                      BARRA DE NAVEGACIÓN Y HEADER
 ---------------------------------------------------------------------------------------------------------------------------------------------*/
-
+.imagenfrase{
+    width: 300px;
+    height: 300px;
+}
 header{
-    
+  
+   
     align-items: center;
     justify-content: space-between;
     background-color: #630bb6;
@@ -11,7 +15,6 @@ header{
     padding: 0%;
     flex-direction: column;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-   
 
 }
 .logo-inicio {
@@ -33,6 +36,10 @@ scale: 1.2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 10px;
 }
+.boton-selector:hover{
+    cursor: pointer;
+    
+}
 .logo-mobile img{
    
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(286deg) brightness(103%) contrast(103%);
@@ -46,9 +53,11 @@ scale: 1.2;
 form a{
     color: #ff0000;
 }
+
 /*---------------------------------------------------------------------------------------------------------------------------------------------
                                                         CUERPO DE LA PÁGINA 
 ---------------------------------------------------------------------------------------------------------------------------------------------*/
+
 body{
     margin: auto;
     background-color: #320136;
@@ -58,7 +67,7 @@ body{
 ---------------------------------------------------------------------------------------------------------------------------------------------*/
 .menu {
     display: flex;
-    background-color:#630bb6;
+   /* background-color:#630bb6;*/
     padding: 10px 5px;
     max-width: 600px
 }
@@ -72,7 +81,8 @@ body{
 }
 
 .menu a:hover {
-    background-color: #58075f;
+    scale: 1.2;
+    color: rgb(221, 172, 13);    
 }
 
  ul li { 
@@ -150,7 +160,7 @@ background-color: #ccc058;
 color: black;
 padding: 1em;
 margin: 10px;
-/*border-radius: 10px;*/
+border-radius: 10px;
 transition: 400ms;
 transition-property: background-color, color, border;
 overflow: hidden;
@@ -175,27 +185,33 @@ overflow: hidden;
 
 .carta-titulo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    border-radius: 10px;
+    
     font-size: 25px;
     text-align: center;
     text-decoration: none;
 
 }
+.carta-titulo button {
+    
+    background-color: #630bb6;
+ }
+
 .carta-titulo:hover{
     cursor: pointer;
     color:#000000;
-    scale: 1.2;
+   
 }
 
 .carta-.carta-descripcion img{
     scale: 1.2;
 }
 .carta-conten{
-  
+   
     gap: 1em;
 
 }
 .titulo-conten{
+  
     background-color: #58075f;
     color: white;
     padding: 1.2em .5em;
@@ -225,7 +241,7 @@ overflow: hidden;
 
 
 .text{
-    /*background-image: url("/imagenes/539f8b5502bc162f5c6cecdbc03f58bd-Grande\ \(1\).jpeg ");*/
+   
     background-color: rgb(255, 255, 255);
 }
 .footer .texto-primario{
@@ -317,4 +333,63 @@ body .text{
     }
  
 }
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------
+                                                             SECCIÓN JUEGOS
+---------------------------------------------------------------------------------------------------------------------------------------------*/
+.titulo-juegos img{
+    background-position: center;
+    height: 60px;
+}
+.titulo-juegos{
+   
+    background-color: #58075f;
+    color: white;
+    padding: 1.2em .5em;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seccion-juegos a{
+    font-size: medium;
+    color:#000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.seccion-juegos  {
+
+   background-position: center;
+  
+   background-image: url(../images/juegosbackground.jpg);
+    padding: 20px;
+    background-color:#ff0000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    text-align: center;
+}
+
+.juegos{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img-juego{
+  
+    transition: 600ms;
+    border: 4px solid rgb(226, 175, 7);
+    border-radius: 20px;
+    width: 100px;
+}
+.img-juego:hover{
+    transition: 800ms;
+    scale: 1.2;
+    box-shadow: 0px 0px 5px rgb(90, 1, 117);
+   
+
+}
+
 
