@@ -12,8 +12,10 @@
    
 }
 .video{
-    display: flex;
-    justify-content: center;
+    display: grid;
+  
+    align-content: space-around;
+    justify-content: space-around;
 }
 .videoframe{ 
 border: 7px solid rgb(221, 172, 13);

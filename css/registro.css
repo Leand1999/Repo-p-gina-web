@@ -1,3 +1,8 @@
+/*---------------------------------------------------------------------------------------------------------------------------------------------
+                                                             REGISTRO
+---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
 body{
     
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -61,10 +66,7 @@ top:-5px;
 color:#000000;
 transition: 500ms;
 }
-.usuario input:focus~ span::before,
-.usuario input:focus~ span::before{
-    width: 100%;
-}
+
 .recordar{
     margin: -5px 0 20px 5px;
     color:blue;
